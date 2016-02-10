@@ -1,1 +1,1 @@
-#ReactJS Session 1
+#ReactJS Example 1
