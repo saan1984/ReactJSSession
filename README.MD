@@ -1,6 +1,6 @@
 #ReactJS Overview Session
 This is a overview session for ReactJS library.
-It covers some of the important features of ReactJS libray.
+It covers some of the important features of ReactJS library.
 The overview contains the following features:-
 
 ##Introduction
@@ -8,15 +8,16 @@ The overview contains the following features:-
 - work on both client and server side application development.
 - virtual DOM is the core of the ReactJS library.
 - write ReactJS component using 2 approaches:-
-    - JSX.
-    - ES6 or ECMAScript 2015.
+    - JSX with ES5 conventional javascript flavour
+    - JSX with ES6/ECMAScript2015 flavour.
     
 ##Configure Development Environment
 - Install Node Package manager.
 - Install Gulp build tool.
 - Create  `package.json` file using `npm init` command.
-- Install ReactJS as local dependency using `npm install react --save` command in terminal.
-- Install following NPM dev packages:-- Or we can install it in a single command:-
+- Install ReactJS Core library local dependency using `npm install react --save` command in terminal.
+- Install ReactJS DOM library as local dependency using `npm install react-dom --save` command in terminal.
+- Install following NPM dev packages:--
 
 | NPM Dev Package     | Description                                                                                         | Installation Command                       |
 |---------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------|
@@ -27,4 +28,8 @@ The overview contains the following features:-
 | babel-preset-react  | Babel preset for all React plugins.                                                                 | npm install babel-preset-react --save-dev  |
 | vinyl-source-stream | Better Stream handling For NodeJS that can work with Browserify.                                    | npm install vinyl-source-stream --save-dev |
 
--
+-next
+
+##Usefull Links:-
+- Learn ES2015 using BabelJS: http://babeljs.io/docs/learn-es2015/
+- React Examples: https://github.com/egor-smirnov/egorsmirnov.me-examples
