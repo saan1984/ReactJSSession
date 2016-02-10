@@ -16,14 +16,15 @@ The overview contains the following features:-
 - Install Gulp build tool.
 - Create  `package.json` file using `npm init` command.
 - Install ReactJS as local dependency using `npm install react --save` command in terminal.
-- Install following NPM dev packages:-
-     | NPM Dev Package     | Description                                                                                         | Installation Command                       |
-     |---------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------|
-     | Gulp                | BUILD: tool to automate development task.                                                           | npm install gulp --save-dev                |
-     | Browserify          | BROWSERIFIED: Facilitate require('modules') in the browser by bundling up all of your dependencies. | npm install browserify --save-dev          |
-     | Babelfy             | BABELIFIED: browserify the the babel code.                                                          | npm install babelify --save-dev            |
-     | babel-preset-es2015 | Babel preset for all es2015 plugins.                                                                | npm install babel-preset-es2015 --save-dev |
-     | babel-preset-react  | Babel preset for all React plugins.                                                                 | npm install babel-preset-react --save-dev  |
-     | vinyl-source-stream | Better Stream handling For NodeJS that can work with Browserify                                     | npm install vinyl-source-stream --save-dev |
-    
-- Or we can install it in a single command:-   `npm install --save-dev gulp, browserify, babelify, vinyl-source-stream, babel-preset-es2015, babel-preset-react`.
+- Install following NPM dev packages:-- Or we can install it in a single command:-
+
+| NPM Dev Package     | Description                                                                                         | Installation Command                       |
+|---------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------|
+| Gulp                | BUILD: tool to automate development task.                                                           | npm install gulp --save-dev                |
+| Browserify          | BROWSERIFIED: Facilitate require('modules') in the browser by bundling up all of your dependencies. | npm install browserify --save-dev          |
+| Babelfy             | BABELIFIED: browserify the the babel code.                                                          | npm install babelify --save-dev            |
+| babel-preset-es2015 | Babel preset for all es2015 plugins.                                                                | npm install babel-preset-es2015 --save-dev |
+| babel-preset-react  | Babel preset for all React plugins.                                                                 | npm install babel-preset-react --save-dev  |
+| vinyl-source-stream | Better Stream handling For NodeJS that can work with Browserify.                                    | npm install vinyl-source-stream --save-dev |
+
+-
