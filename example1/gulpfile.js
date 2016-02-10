@@ -1,12 +1,12 @@
-var gulp = require('gulp');
-var browserify = require('browserify');
-var babelify = require('babelify');
-var source = require('vinyl-source-stream');
+var gulp = require('gulp'),
+	browserify = require('browserify'),
+	babelify = require('babelify'),
+	source = require('vinyl-source-stream');
 
 //TASK: transpile
 gulp.task('transpile',function() {
 	return browserify({
-		entries:['./dev/example1.js', './dev/welcome-component.js'],
+		entries:['./dev/welcome-component.js', './dev/component-render.js'],
 		extensions: ['*.js'],
 		debug: true
 	}).transform('babelify', {
@@ -17,7 +17,7 @@ gulp.task('transpile',function() {
 });
 //TASK: copy
 gulp.task('copy', function() {
-	return gulp.src(['./dev/example1.html']).pipe(gulp.dest('dist'));
+	return gulp.src(['./dev/demo.html']).pipe(gulp.dest('dist'));
 });
 
 //TASK: build
