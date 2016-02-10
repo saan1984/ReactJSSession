@@ -11,6 +11,17 @@ The overview contains the following features:-
     - JSX with ES5 conventional javascript flavour
     - JSX with ES6/ECMAScript2015 flavour.
     
+##JSX
+- HTML like syntax which gets transformed to lightweight JavaScript objects.
+- Gulp process include this JSX to JS transformation.
+
+##Virtual DOM
+- Works on When-Which paradigm. 
+- When represent: data change time. 
+- Which identifies the DOM elements that need to be updated.
+- React's rendered HTML markup contains data-reactid attributes,React track DOM node changes using this attribute.
+
+    
 ##Configure Development Environment
 - Install Node Package manager.
 - Install Gulp build tool.
@@ -58,3 +69,6 @@ Top level object in ReactJS are as follows:-
 ##Usefull Links:-
 - Learn ES2015 using BabelJS: http://babeljs.io/docs/learn-es2015/
 - React Examples: https://github.com/egor-smirnov/egorsmirnov.me-examples
+- React How to: https://github.com/petehunt/react-howto
+- Radium inline styles: http://stack.formidable.com/radium/
+- React diff Algorithm: http://calendar.perfplanet.com/2013/diff/
