@@ -54,24 +54,24 @@ Top level object in ReactJS are as follows:-
 - ReactDOMServer: Isomorphic methods
 
 ###React 
-- React.Component : Base class for React components
-- React.createClass() :Creates a React Class with given specification and returns ReactClass.
-- React.createElement() :Create and return a new ReactElement of the given type.
-- React.cloneElement() :Return a new ReactElement by copying supplied element.
-- React.createFactory() :Return a function that produces ReactElements of a given type
-- React.isValidElement() :checks the object is a ReactElement.
-- React.DOM: wrappers around React.createElement 
-- React.PropTypes: defines type of property used in a ReactClass.
-- React.Children: Parent element can read its children by accessing the special this.props.children prop.
+- **React.Component** : Base class for React components
+- **React.createClass()** :Creates a React Class with given specification and returns ReactClass.
+- **React.createElement()** :Create and return a new ReactElement of the given type.
+- **React.cloneElement()** :Return a new ReactElement by copying supplied element.
+- **React.createFactory()** :Return a function that produces ReactElements of a given type
+- **React.isValidElement()** :checks the object is a ReactElement.
+- **React.DOM** : wrappers around React.createElement 
+- **React.PropTypes** : defines type of property used in a ReactClass.
+- **React.Children**: Parent element can read its children by accessing the special this.props.children prop.
 
 ###ReactDOM
-- ReactDOM.render(): Render a ReactElement into the DOM in the target container.
-- ReactDOM.unmountComponentAtNode(): Remove a mounted React component from the DOM and clean up its event handlers and state.
-- ReactDOM.findDOMNode(): returns the targeted browser DOM element. 
+- **ReactDOM.render()** : Render a ReactElement into the DOM in the target container.
+- **ReactDOM.unmountComponentAtNode()** : Remove a mounted React component from the DOM and clean up its event handlers and state.
+- **ReactDOM.findDOMNode()** : returns the targeted browser DOM element. 
 
 ###ReactDOMServer
-- ReactDOMServer.renderToString(): Used for achieveing Isomorphism, this method generates HTML on the server and send the markup down to client.
-- ReactDOMServer.renderToStaticMarkup(): this doesn't create extra DOM attributes such as data-react-id or elese it is same as renderToString() method.
+- **ReactDOMServer.renderToString()**: Used for achieveing Isomorphism, this method generates HTML on the server and send the markup down to client.
+- **ReactDOMServer.renderToStaticMarkup()**: this doesn't create extra DOM attributes such as data-react-id or elese it is same as renderToString() method.
 
 ##Usefull Links:-
 - Learn ES2015 using BabelJS: http://babeljs.io/docs/learn-es2015/
