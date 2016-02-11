@@ -1,11 +1,14 @@
 import React from 'react';
 
 class MyButtonComponent extends React.Component {
+
 	sayHello(){
-		alert("Hello "+this.props.message)
+		console.log("Hello "+ this.props.message);
+		alert("Hello "+ this.props.message)
 	}
 	render() {
-		return <button onClick={this.sayHello}>Click Me</button>;
+		console.log(this.props)
+		return <button onClick={this.sayHello.bind(this)}>Click Me</button>;
 	}
 }
 

@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 //TASK: transpile
 gulp.task('transpile',function() {
 	return browserify({
-		entries:['./dev/mytext-component.js', './dev/component-render.js'],
+		entries:['./dev/mybutton-component.js', './dev/component-render.js'],
 		extensions: ['*.js'],
 		debug: true
 	}).transform('babelify', {
