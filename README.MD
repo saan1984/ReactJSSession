@@ -2,13 +2,13 @@
 This is a overview session for ReactJS library.
 It covers some of the important features of ReactJS library.
 The overview contains the following features:-
--React setup
--property
--state
--events
--React inline style
--lifecycle
--mixin
+- React setup
+- property
+- state
+- events
+- React inline style
+- lifecycle
+- mixin
 
 ##Introduction
 - interactive, stateful & reusable UI component development.
