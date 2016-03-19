@@ -10,6 +10,23 @@ The overview contains the following features:-
 - lifecycle
 - mixin
 
+## Section Description
+
+| No 	|  Section  	| Description                                  	|
+|:--:	|:---------:	|----------------------------------------------	|
+|  1 	|  Example1 	| JSX with ES5 conventional javascript flavour 	|
+|  2 	|  Example2 	| JSX with ES6/ECMAScript2015 flavour          	|
+|  3 	|  Example3 	| State of a React component                   	|
+|  4 	|  Example4 	| Event handling                               	|
+|  5 	|  Example5 	| React component lifecycle                    	|
+|  6 	|  Example6 	| React CSS style                              	|
+|  7 	|  Example7 	| React mixin                                  	|
+|  8 	|  Example8 	| React Component composition                  	|
+|  9 	|  Example9 	| React NameSpace Component                    	|
+| 10 	| Example10 	| React with spread operator                   	|
+| 11 	|           	|                                              	|
+
+
 ##Introduction
 - interactive, stateful & reusable UI component development.
 - work on both client and server side application development.
