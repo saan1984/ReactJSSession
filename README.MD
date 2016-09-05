@@ -24,7 +24,7 @@ The overview contains the following features:-
 |  8 	|  Example8 	| React Component composition                  	|
 |  9 	|  Example9 	| React NameSpace Component                    	|
 | 10 	| Example10 	| React with spread operator                   	|
-| 11 	|           	|                                              	|
+| 11 	| Example11  |  React Property validation                       |
 
 
 ##Introduction
