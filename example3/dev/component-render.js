@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import MyTextComponent from './mytext-component';
 
 ReactDOM.render(
-	<MyTextComponent message="Developers"/>,
+	<MyTextComponent />,
 	document.getElementById("component-container")
 );
